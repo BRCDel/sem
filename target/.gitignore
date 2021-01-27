@@ -36,3 +36,5 @@ buildNumber.properties
 
 #IntelliJ hidden files
 .idea/
+
+#Sample change to gitignore
