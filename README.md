@@ -7,3 +7,7 @@
 # Software Engineering Methods
 
 - Master Build Status [![Build Status](https://travis-ci.com/BRCDel/sem.svg?branch=master)](https://travis-ci.com/BRCDel/sem)
+
+[![LICENSE](https://img.shields.io/github/license/BRCDel/sem.svg?style=flat-square)](https://github.com/BRCDel/sem/blob/master/LICENSE)
+
+[![Releases](https://img.shields.io/github/release/BRCDel/sem/all.svg?style=flat-square)](https://github.com/BRCDel/sem/release)
