@@ -1,6 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="RunManager" selected="Docker.Docker Image">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:release" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="updated mongodb to use jar file, updated travis build">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="BRCDel &lt;40444648@live.napier.ac.uk&gt;" />
+        <option value="BRCDel &lt;56025761+brcdel@users.noreply.github.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nKztosp3Gmi8OQrngvzcFOUshF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\delig\IdeaProjects\seMethods\target" />
+      <recent name="C:\Users\delig\IdeaProjects\seMethods" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Docker Image (1)">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -14,6 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker Image (1)" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="sha256:2ca80fc5f23345fdfaefdef1f8744409ccb5f5538a339b2379fa943ba5814a66" />
+          <option name="command" value="" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Docker Image" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
       <deployment type="docker-image">
         <settings>
@@ -26,9 +129,22 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="Docker_Mongo" type="docker-deploy" factoryName="docker-image" temporary="true" server-name="Docker">
+      <deployment type="docker-image">
+        <settings>
+          <option name="imageTag" value="mongo:latest" />
+          <option name="command" value="" />
+          <option name="containerName" value="mongo-dbserver" />
+          <option name="entrypoint" value="" />
+          <option name="commandLineOptions" value="--network se-methods" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
       <deployment type="dockerfile">
         <settings>
+          <option name="buildOnly" value="true" />
           <option name="sourceFilePath" value="Dockerfile" />
         </settings>
       </deployment>
@@ -36,10 +152,365 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Docker Image (1)" />
         <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.Docker_Mongo" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="" />
+      <created>1611153788829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611153788829</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First commit, adding initial files.">
+      <created>1611164421468</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611164421468</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second commit, sample code.">
+      <created>1611165502928</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611165502928</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Third commit, actually showing IntelliJ that MY gitignore file is the one to use.">
+      <created>1611580979624</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611580979624</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Third commit, actually showing IntelliJ that MY gitignore file is the one to use.">
+      <created>1611581053461</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611581053461</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Third commit, actually showing IntelliJ that MY gitignore file is the one to use.">
+      <created>1611581079433</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611581079433</updated>
+    </task>
+    <task id="LOCAL-00006" summary="full branches created">
+      <created>1611753925378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611753925378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added dockerfile">
+      <created>1612123436047</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612123436047</updated>
+    </task>
+    <task id="LOCAL-00008" summary="added travis file">
+      <created>1612184117889</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184117889</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added travis file">
+      <created>1612184125976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184125976</updated>
+    </task>
+    <task id="LOCAL-00010" summary="hopefully fixed travis file smh">
+      <created>1612184535219</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184535219</updated>
+    </task>
+    <task id="LOCAL-00011" summary="hopefully fixed travis file smh">
+      <created>1612184659232</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184659232</updated>
+    </task>
+    <task id="LOCAL-00012" summary="hopefully fixed travis file smh">
+      <created>1612184852005</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1612184852005</updated>
+    </task>
+    <task id="LOCAL-00013" summary="hopefully fixed travis file smh">
+      <created>1612185106543</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185106543</updated>
+    </task>
+    <task id="LOCAL-00014" summary="hopefully fixed travis file smh">
+      <created>1612185123148</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185123148</updated>
+    </task>
+    <task id="LOCAL-00015" summary="for the love of god please work travis">
+      <created>1612185139463</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185139463</updated>
+    </task>
+    <task id="LOCAL-00016" summary="for the love of god please work travis">
+      <created>1612185240820</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185240820</updated>
+    </task>
+    <task id="LOCAL-00017" summary="added travis badge to readme.md">
+      <created>1612185547087</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185547087</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added travis badge to readme.md">
+      <created>1612185603153</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185603153</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added shields.io badges to README.md">
+      <created>1612185769232</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185769232</updated>
+    </task>
+    <task id="LOCAL-00020" summary="updated travis file for docker integration">
+      <created>1612185926762</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1612185926762</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated travis file for docker integration">
+      <created>1612186295580</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1612186295580</updated>
+    </task>
+    <task id="LOCAL-00022" summary="possible dockerfile fix">
+      <created>1612192939864</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1612192939864</updated>
+    </task>
+    <task id="LOCAL-00023" summary="possible dockerfile fix">
+      <created>1612193108716</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1612193108716</updated>
+    </task>
+    <task id="LOCAL-00024" summary="updated readne">
+      <created>1612214240728</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1612214240728</updated>
+    </task>
+    <task id="LOCAL-00025" summary="updated readme">
+      <created>1612214464322</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1612214464322</updated>
+    </task>
+    <task id="LOCAL-00026" summary="added mongodb driver dependency">
+      <created>1612217521664</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1612217521664</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added mongodb driver dependency">
+      <created>1612217537704</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1612217537704</updated>
+    </task>
+    <task id="LOCAL-00028" summary="mongodb should be usable as docker container">
+      <created>1612217900142</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612217900142</updated>
+    </task>
+    <task id="LOCAL-00029" summary="built and added .jar file">
+      <created>1612218406473</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612218406473</updated>
+    </task>
+    <task id="LOCAL-00030" summary="built and added .jar file">
+      <created>1612218496934</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1612218496934</updated>
+    </task>
+    <task id="LOCAL-00031" summary="built and added .jar file">
+      <created>1612218502627</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1612218502627</updated>
+    </task>
+    <task id="LOCAL-00032" summary="updated mongodb to use jar file, updated travis build">
+      <created>1612219351278</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612219351278</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="release" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit, adding initial files." />
+    <MESSAGE value="Second commit, sample code." />
+    <MESSAGE value="Fourth commit, actually showing IntelliJ that MY gitignore file is the one to use." />
+    <MESSAGE value="Third commit, actually showing IntelliJ that MY gitignore file is the one to use." />
+    <MESSAGE value="Test commit to remote repo." />
+    <MESSAGE value="full branches created" />
+    <MESSAGE value="added dockerfile" />
+    <MESSAGE value="added travis file" />
+    <MESSAGE value="hopefully fixed travis file smh" />
+    <MESSAGE value="for the love of god please work travis" />
+    <MESSAGE value="added travis badge to readme.md" />
+    <MESSAGE value="added shields.io badges to README.md" />
+    <MESSAGE value="updated travis file for docker integration" />
+    <MESSAGE value="possible dockerfile fix" />
+    <MESSAGE value="updated readne" />
+    <MESSAGE value="updated readme" />
+    <MESSAGE value="added mongodb driver dependency" />
+    <MESSAGE value="mongodb should be usable as docker container" />
+    <MESSAGE value="built and added .jar file" />
+    <MESSAGE value="updated mongodb to use jar file, updated travis build" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated mongodb to use jar file, updated travis build" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1208" y="250" key="#Docker" timestamp="1612215233804">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1208" y="250" key="#Docker/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612215233804" />
+    <state x="1066" y="218" key="#Inspections" timestamp="1612217463188">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1066" y="218" key="#Inspections/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217463188" />
+    <state x="1208" y="250" key="#New_Docker_Connection" timestamp="1612215260677">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1208" y="250" key="#New_Docker_Connection/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612215260677" />
+    <state x="1192" y="367" key="#Notifications" timestamp="1611163863596">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1192" y="367" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1611163863596" />
+    <state x="1130" y="365" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1611753565324">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1130" y="365" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611753565324" />
+    <state x="247" y="96" key="DiffContextDialog" timestamp="1612184193964">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="368" y="96" key="DiffContextDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612123448955" />
+    <state x="247" y="96" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612184193964" />
+    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1612218447616">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1612218447616">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1612218447616">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1612218447616">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state x="970" y="195" key="Maven.ArtifactSearchDialog" timestamp="1612217620272">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="970" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217620272" />
+    <state x="1078" y="301" key="MultipleFileMergeDialog" timestamp="1612185615251">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1078" y="301" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612185615251" />
+    <state x="922" y="59" key="SettingsEditor" timestamp="1612218432379">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="922" y="59" key="SettingsEditor/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218432379" />
+    <state x="813" y="161" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611753669503" />
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612219355479">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612219355479" />
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612198202385" />
+    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611587698342">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611587698342" />
+    <state x="1241" y="452" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611587200332">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1241" y="452" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611587200332" />
+    <state x="1241" y="452" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1611164116286" />
   </component>
 </project>
