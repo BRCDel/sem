@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="seMethods:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/seMethods_jar</output-path>
+    <root id="archive" name="seMethods.jar">
+      <element id="module-output" name="seMethods" />
+    </root>
+  </artifact>
+</component>
