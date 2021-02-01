@@ -28,8 +28,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="added mongodb driver dependency">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="mongodb should be usable as docker container">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -331,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612217537704</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="mongodb should be usable as docker container">
+      <created>1612217900142</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1612217900142</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -376,7 +384,8 @@
     <MESSAGE value="updated readne" />
     <MESSAGE value="updated readme" />
     <MESSAGE value="added mongodb driver dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mongodb driver dependency" />
+    <MESSAGE value="mongodb should be usable as docker container" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb should be usable as docker container" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="250" key="#Docker" timestamp="1612215233804">
@@ -404,22 +413,26 @@
     </state>
     <state x="368" y="96" key="DiffContextDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612123448955" />
     <state x="247" y="96" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612184193964" />
-    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1611166001462">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1612217856583">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611166001462" />
-    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1611166001462">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856583" />
+    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1612217856582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611166001462" />
-    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1611166001462">
+    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
+    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1612217856582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611166001462" />
-    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1611166001462">
+    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
+    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1612217856582">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1611166001462" />
+    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
+    <state x="970" y="195" key="Maven.ArtifactSearchDialog" timestamp="1612217620272">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="970" y="195" key="Maven.ArtifactSearchDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217620272" />
     <state x="1078" y="301" key="MultipleFileMergeDialog" timestamp="1612185615251">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -429,10 +442,10 @@
     </state>
     <state x="922" y="59" key="SettingsEditor/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612216887672" />
     <state x="813" y="161" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611753669503" />
-    <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612217540150">
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612217905371">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217540150" />
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217905371" />
     <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612198202385" />
     <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611587698342">
       <screen x="0" y="0" width="1920" height="1080" />
