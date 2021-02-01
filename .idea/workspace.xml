@@ -28,9 +28,8 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="mongodb should be usable as docker container">
+    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="built and added .jar file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -83,7 +83,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -339,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612217900142</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="built and added .jar file">
+      <created>1612218406473</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1612218406473</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,7 +392,8 @@
     <MESSAGE value="updated readme" />
     <MESSAGE value="added mongodb driver dependency" />
     <MESSAGE value="mongodb should be usable as docker container" />
-    <option name="LAST_COMMIT_MESSAGE" value="mongodb should be usable as docker container" />
+    <MESSAGE value="built and added .jar file" />
+    <option name="LAST_COMMIT_MESSAGE" value="built and added .jar file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="250" key="#Docker" timestamp="1612215233804">
@@ -413,22 +421,22 @@
     </state>
     <state x="368" y="96" key="DiffContextDialog/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612123448955" />
     <state x="247" y="96" key="DiffContextDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612184193964" />
-    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1612217856583">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom" timestamp="1612218447616">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856583" />
-    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1612217856582">
+    <state width="914" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.center" timestamp="1612218447616">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
-    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1612217856582">
+    <state width="914" height="292" key="GridCell.Tab.0.center/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.left" timestamp="1612218447616">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
-    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1612217856582">
+    <state width="914" height="292" key="GridCell.Tab.0.left/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
+    <state width="914" height="292" key="GridCell.Tab.0.right" timestamp="1612218447616">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612217856582" />
+    <state width="914" height="292" key="GridCell.Tab.0.right/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218447616" />
     <state x="970" y="195" key="Maven.ArtifactSearchDialog" timestamp="1612217620272">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -437,10 +445,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1078" y="301" key="MultipleFileMergeDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612185615251" />
-    <state x="922" y="59" key="SettingsEditor" timestamp="1612216887672">
+    <state x="922" y="59" key="SettingsEditor" timestamp="1612218432379">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="922" y="59" key="SettingsEditor/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612216887672" />
+    <state x="922" y="59" key="SettingsEditor/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218432379" />
     <state x="813" y="161" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611753669503" />
     <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612217905371">
       <screen x="0" y="0" width="1920" height="1080" />
