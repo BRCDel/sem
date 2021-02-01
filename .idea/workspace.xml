@@ -28,10 +28,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="built and added .jar file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="9f10ae77-edf6-4c5b-8602-e46a6318afce" name="Default Changelist" comment="updated mongodb to use jar file, updated travis build">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -389,7 +386,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612218502627</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="updated mongodb to use jar file, updated travis build">
+      <created>1612219351278</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1612219351278</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -436,7 +440,8 @@
     <MESSAGE value="added mongodb driver dependency" />
     <MESSAGE value="mongodb should be usable as docker container" />
     <MESSAGE value="built and added .jar file" />
-    <option name="LAST_COMMIT_MESSAGE" value="built and added .jar file" />
+    <MESSAGE value="updated mongodb to use jar file, updated travis build" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated mongodb to use jar file, updated travis build" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1208" y="250" key="#Docker" timestamp="1612215233804">
@@ -493,10 +498,10 @@
     </state>
     <state x="922" y="59" key="SettingsEditor/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218432379" />
     <state x="813" y="161" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1611753669503" />
-    <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612218506415">
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2" timestamp="1612219355479">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612218506415" />
+    <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-1280.988.1024.640@0.0.1920.1080" timestamp="1612219355479" />
     <state x="1032" y="279" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612198202385" />
     <state x="1257" y="453" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611587698342">
       <screen x="0" y="0" width="1920" height="1080" />
